@@ -1,80 +1,70 @@
 body {
     background-color: #745cc1;
-    width: 375px;
-    height: 667px;
-    margin: auto;
+    text-align: center;
 }
 
 .login img {
-    height: 99px;
-    width: 95px;
-    margin-left: 140px;
-    margin-right: 140px;
     margin-top: 65px;
-    margin-bottom: 55px;
+  
+}
+
+form {
+    padding: 60px 60px 5px 60px;
 }
 
 .login input[type="email"] {
-    width: 247px;
+    width: 100%;
     border-color: #ffffff;
     border-style: solid;
     border-width: 1px;
     border-top: none;
     border-left: none;
     border-right: none;
-    margin-left: 65px;
-    margin-right: 64px;
-    margin-bottom: 59px;
     background-color: #745cc1;
     font-weight: 300;
     font-size: 19px;
     font-family: "roboto", sans-serif;
+    margin-bottom: 50px;
 }
 
 .login input[type="password"] {
-    width: 247px;
+    width: 100%;
     border-color: #ffffff;
     border-style: solid;
     border-width: 1px;
     border-top: none;
     border-left: none;
     border-right: none;
-    margin-left: 65px;
-    margin-right: 64px;
-    margin-bottom: -9px;
     background-color: #745cc1;
     font-weight: 300;
     font-size: 19px;
     font-family: "roboto", sans-serif;
+    margin-bottom: 50px;
 }
 
-.login button {
-    width: 247px;
+button {
+    width: 100%;
     height: 50px;
     box-shadow: 0 2px 3px #000000;
     border-radius: 40px;
     background-color: #ffffff;
+    border: none;
     color: #39393a;
     font-family: 'roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
-    margin-left: 67px;
-    margin-right: 64px;
-    margin-top: 63px;
+  
 }
 
-.login p a {
+a {
     text-decoration: none;
-    width: 134px;
-    height: 16px;
     text-shadow: 0 1px 1px #000000;
     color: #ffffff;
     font-family: 'roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    margin-left: 121px;
-    margin-right: 120px;
+    
 }
 
 .login ::-webkit-input-placeholder {

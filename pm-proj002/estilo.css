@@ -1,6 +1,4 @@
 body {
-    width: 320px;
-    height: 568px;
     background-color: #e6e6e6;
     padding-top: 11px;
     padding-left: 10px;
@@ -9,8 +7,6 @@ body {
 
 .noticia {
     background-color: #ffffff;
-    width: 300px;
-    height: 323px;
     box-shadow: 0 1px 1px rgba(153, 153, 153, 0.5);
     border-radius: 0 0 2px 2px;
     margin-bottom: 15px;
@@ -18,15 +14,12 @@ body {
 }
 
 .noticia img {
-    width: 300px;
-    height: 168px;
+    width: 100%;
     padding-bottom: 10px;
     border-radius: 2px 2px 0 0;
 }
 
 .noticia .localizacao .onde {
-    width: 55px;
-    height: 16px;
     color: #333333;
     font-family: 'open sans', sans-serif;
     font-size: 14px;
@@ -37,8 +30,6 @@ body {
 }
 
 .noticia .localizacao .quando {
-    width: 246px;
-    height: 16px;
     color: #999999;
     font-family: 'open sans', sans-serif;
     font-size: 11px;
@@ -49,8 +40,6 @@ body {
 }
 
 .noticia h2 {
-    width: 283px;
-    height: 54px;
     color:#b5000d;
     font-family: 'open sans', sans-serif;
     font-size: 16px;
@@ -66,8 +55,6 @@ body {
 }
 
 .noticia p {
-    width: 283px;
-    height: 32px;
     color: #333333;
     font-family: 'open sans', sans-serif;
     font-size: 14px;
@@ -85,8 +72,6 @@ body {
 
 .esporte {
     background-color: #000000;
-    width: 300px;
-    height: 350px;
     box-shadow: 0 1px 1px rgba(153, 153, 153, 0.5);
     border-radius: 0 0 2px 2px;
     margin-bottom: 15px;
@@ -94,15 +79,12 @@ body {
 }
 
 .esporte img {
-    width: 300px;
-    height: 168px;
+    width: 100%;
     padding-bottom: 10px;
     border-radius: 2px 2px 0 0;
 }
 
 .esporte .localizacao .onde {
-    width: 55px;
-    height: 16px;
     color: #333333;
     font-family: 'open sans', sans-serif;
     font-size: 14px;
@@ -113,8 +95,6 @@ body {
 }
 
 .esporte .localizacao .quando {
-    width: 246px;
-    height: 16px;
     color: #999999;
     font-family: 'open sans', sans-serif;
     font-size: 11px;
@@ -125,8 +105,6 @@ body {
 }
 
 .esporte h2 {
-    width: 283px;
-    height: 54px;
     color:#18188b;
     font-family: 'open sans', sans-serif;
     font-size: 16px;
@@ -142,8 +120,6 @@ body {
 }
 
 .esporte p {
-    width: 283px;
-    height: 32px;
     color: #ffffff;
     font-family: 'open sans', sans-serif;
     font-size: 14px;
@@ -161,24 +137,19 @@ body {
 
 .politica {
     background-color: #000000;
-    width: 300px;
-    height: 290px;
     box-shadow: 0 1px 1px rgba(153, 153, 153, 0.5);
     border-radius: 0 0 2px 2px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 
 }
 
 .politica img {
-    width: 300px;
-    height: 168px;
+    width: 100%;
     padding-bottom: 10px;
     border-radius: 2px 2px 0 0;
 }
 
 .politica .localizacao .onde {
-    width: 55px;
-    height: 16px;
     color: #333333;
     font-family: 'open sans', sans-serif;
     font-size: 14px;
@@ -189,8 +160,6 @@ body {
 }
 
 .politica .localizacao .quando {
-    width: 246px;
-    height: 16px;
     color: #999999;
     font-family: 'open sans', sans-serif;
     font-size: 11px;
@@ -201,8 +170,6 @@ body {
 }
 
 .politica h2 {
-    width: 283px;
-    height: 54px;
     color:#ffffff;
     font-family: 'open sans', sans-serif;
     font-size: 16px;
@@ -210,19 +177,18 @@ body {
     line-height: 18px;
     padding-left: 9px;
     padding-right: 8px;
-    padding-top: 7px;  
+    padding-top: 7px;
+    padding-bottom: 7px;
     text-transform: uppercase;
 }
 
-.politica .texto h4 a {
-    width: 283px;
-    height: 32px;
+.politica .texto a h4 {
     font-family: 'open sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
     padding-left: 9px;
-    padding-right: 8px;
-    margin-top: px;
     text-decoration: none;
     color: #bfbf00;   
+    padding-bottom: 10px;
+   
 }

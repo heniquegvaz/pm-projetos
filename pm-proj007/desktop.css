@@ -1,0 +1,236 @@
+body {
+    font-family: "lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao {
+   background-color: #ff397e;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
+    box-shadow: 0px 6px 0px 0px #a32751;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+input#check {
+    display: none;
+}
+
+label img {
+    display: none
+}
+
+
+/*-------------- inicio do header (Cabeçalho) ----------------- */
+
+
+header {
+    margin-bottom: -90px;
+}
+
+header h1 span {
+    visibility: hidden;
+}
+
+header h1 {
+    margin: 0;
+    background-image: url(image/logo_titum.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 76px;
+    margin-top: 10px;
+}
+
+header .barra nav a {
+    padding-right: 20px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+header .barra nav a {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+header .barra nav a:last-child {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px;
+}
+
+header .barra nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*-------------- fim do header (Cabeçalho) -------------------- */
+
+
+/*----------------- inicio do Topo ----------------------- */
+
+
+section#topo {
+    background-image: url(image/fundo.png);
+    background-size: cover;
+    height: 700px;
+}
+
+section#topo .chamada {
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+}
+
+section#topo .chamada h2 {
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 12px
+    
+}
+
+section#topo .chamada p {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/*--------------------- fim do topo -------------------------- */
+
+/*--------------------- inicio do conheça---------------------- */
+
+section#conheça {
+    padding: 70px;
+}
+
+section#conheça .texto {
+    padding: 70px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+section#conheça .texto h2 {
+    font-size: 36px;
+}
+
+section#conheça .texto p {
+    font-size: 24px;
+}
+
+section#conheça .texto a {
+    width: 70%;
+    font-size: 30px;
+}
+
+/*--------------------- fim do conheça------------------------- */
+
+/*--------------------- inicio do depoimento-------------------- */
+
+section#depoimento {
+    background-color: #ebe7fb;
+    border-top: 4px solid #511099;
+}
+
+section#depoimento .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    padding-bottom: 50px;
+}
+
+section#depoimento img {
+    height: 150px;
+    width: 150px;
+}
+
+section#depoimento p {
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+    
+}
+
+/*--------------------- fim do depoimento----------------------- */
+
+/*--------------------- inicio do convite-------------------- */
+
+section#convite {
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background-image:url(image/fundo-convite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+section#convite .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+section#convite form {
+    padding: 10px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8 );
+    border-radius: 3px;
+    display: flex;
+}
+
+section#convite input {
+    padding: 30px;
+    width: 75%;
+    background-color: transparent;
+    border: none;
+}
+
+section#convite button {
+    background-image: url(image/enviar.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    width: 100px;
+    height: 55px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+section#convite span {
+    visibility: hidden;
+}
+
+/*--------------------- fim do convite----------------------- */
+
+/*--------------------- inicio do footer----------------------- */
+
+footer {
+    background-color: #2a0157;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 4px;
+    
+}
+
+footer .container {
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+/*--------------------- fim do footer----------------------- */
+
+
+

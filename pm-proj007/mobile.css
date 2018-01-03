@@ -155,7 +155,7 @@ section#topo .chamada p {
 /*--------------------- inicio do conheça---------------------- */
 
 section#conheça {
-    padding: 70px;
+    padding: 60px;
 }
 
 section#conheça .texto {
@@ -287,6 +287,10 @@ section#topo {
 section#conheça .container {
     flex-direction: column;
     align-items: center;
+}
+
+section#conheça img {
+  width: 110%
 }
 
 section#conheça .container .texto {
